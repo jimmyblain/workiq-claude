@@ -46,7 +46,7 @@ Add a custom connector in Claude with:
 | OAuth client ID | the client ID the script printed |
 | OAuth client secret | leave blank |
 
-## Restrict who can connect
+## Restrict who can connect (Optional)
 
 A client ID isn't a secret, so anyone in the tenant could use this connector until you restrict it. In the Entra admin center, go to **Enterprise applications**, open the app, set **Properties > Assignment required** to **Yes**, and add the users or groups who should have access under **Users and groups**. Turn the setting on and add the assignment at the same time, because Assignment required with nobody assigned blocks everyone.
 
