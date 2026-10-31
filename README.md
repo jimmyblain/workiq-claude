@@ -4,8 +4,6 @@ Adding Microsoft's Work IQ MCP server to Claude as a custom connector fails with
 
 `New-ClaudeWorkIQClientApp.ps1` creates that client app. It registers a single-tenant public client (PKCE, no secret) with Claude's redirect URI, grants it the Work IQ permissions, and prints the client ID to put in Claude's connector settings.
 
-For the full explanation, the manual portal steps, and troubleshooting, see the [blog post](blog-post.md).
-
 ## Prerequisites
 
 - Microsoft's Work IQ tenant setup is done, including [`Enable-WorkIQToolsForTenant.ps1`](https://github.com/microsoft/work-iq/blob/main/scripts/Enable-WorkIQToolsForTenant.ps1). See Microsoft's [admin instructions](https://github.com/microsoft/work-iq/blob/main/ADMIN-INSTRUCTIONS.md).
